@@ -6,7 +6,7 @@ the import and export of csv
 csvExport
 ===
 
-$export = new CsvExport();
+    $export = new CsvExport();
     $export->setHeader(array('ids','username','age'));
     
     $export->append(
@@ -26,7 +26,7 @@ $export = new CsvExport();
 csvImport
 ===
 
- $import = new CsvImport();
+    $import = new CsvImport();
     $import->setFile('read.csv',500,"\t");
     print_r($import->getRows());
     print_r($import->getHeader());
