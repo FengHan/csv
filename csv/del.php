@@ -1,7 +1,5 @@
 <?php
-/**
- * @author michael
- * /
+
 require_once dirname(__FILE__) . '/lib/CsvImportInterface.php';
 require_once dirname(__FILE__) . '/lib/CsvImport.php';
 require_once dirname(__FILE__) . '/lib/CsvExportInterface.php';
